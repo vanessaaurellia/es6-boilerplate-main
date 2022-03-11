@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="40" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="26">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="40" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="29">
  <tileset firstgid="1" name="area01_level_tiles" tilewidth="32" tileheight="32" tilecount="140" columns="20">
   <image source="../img/map/area01_level_tiles.png" width="640" height="241"/>
  </tileset>
@@ -51,6 +51,20 @@
     <property name="image" value="spinning_coin_gold"/>
    </properties>
   </object>
+  <object id="28" name="me.Trigger" x="1244" y="218.667" width="32" height="128">
+   <properties>
+    <property name="duration" type="int" value="250"/>
+    <property name="fade" type="color" value="#ff000000"/>
+    <property name="to" value="area02"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="me.Trigger" x="1248">
+  <properties>
+   <property name="duration" type="int" value="250"/>
+   <property name="fade" type="color" value="#ff000000"/>
+   <property name="to" value="area02"/>
+  </properties>
  </objectgroup>
  <objectgroup id="6" name="EnemyEntities">
   <object id="13" name="EnemyEntity" x="1087" y="287" width="194" height="34"/>
